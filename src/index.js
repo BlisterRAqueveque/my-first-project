@@ -1,7 +1,37 @@
 import express from 'express';
 
+// Creamos una variable para instanciar la librería
 const app = express();
 
-app.listen(3000, () => {
-  console.log('App running on port 3000');
+// Esta es nuestra "primera sala de nuestra casa", el salón principal para recibir las "visitas"
+app.get('/', (req, res) => {
+  res.send('Welcome to our server!');
 });
+
+app.get('/kitchen/fridge', (req, res) => {
+  res.send('You can drink water');
+});
+
+app.get('/kitchen/fridge/:glassType', (req, res) => {
+  const glassType = req.params.glassType;
+  res.send(`You poured water into a ${glassType}`);
+});
+
+app.get('/bedroom/', (req, res) => {
+  const queryParams = req.query;
+
+  if ('pillow' in queryParams && queryParams.pillow) {
+    res.send(`You get the pillow of ${queryParams.pillow}`);
+    return;
+  }
+
+  res.send("You don't have selected any type of pillow");
+});
+
+// Llamamos al método para que levante el servidor:
+app.listen(
+  /* Acá especificamos el puerto donde se va a escuchar: */ 3000,
+  /* Un arrow function */ () => {
+    console.log('Server listening on port: 3000');
+  }
+);
