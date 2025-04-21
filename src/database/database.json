@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "first_name": "Lydon",
+    "last_name": "Robbert",
+    "email": "lrobbert0@geocities.com",
+    "gender": "Male",
+    "ip_address": "192.134.207.197"
+  },
+  {
+    "id": 2,
+    "first_name": "Wyndham",
+    "last_name": "Fishbie",
+    "email": "wfishbie1@dion.ne.jp",
+    "gender": "Male",
+    "ip_address": "75.193.91.103"
+  },
+  {
+    "id": 3,
+    "first_name": "Keelby",
+    "last_name": "Ranscombe",
+    "email": "kranscombe2@rakuten.co.jp",
+    "gender": "Male",
+    "ip_address": "54.170.64.63"
+  },
+  {
+    "id": 4,
+    "first_name": "Torrie",
+    "last_name": "Lett",
+    "email": "tlett3@jiathis.com",
+    "gender": "Female",
+    "ip_address": "255.158.225.86"
+  },
+  {
+    "id": 5,
+    "first_name": "Ronnie",
+    "last_name": "Bediss",
+    "email": "rbediss4@icq.com",
+    "gender": "Male",
+    "ip_address": "84.143.140.193"
+  },
+  {
+    "id": 6,
+    "first_name": "Shannah",
+    "last_name": "Mansour",
+    "email": "smansour5@hatena.ne.jp",
+    "gender": "Female",
+    "ip_address": "134.80.75.232"
+  },
+  {
+    "id": 7,
+    "first_name": "Dasi",
+    "last_name": "Bisco",
+    "email": "dbisco6@clickbank.net",
+    "gender": "Female",
+    "ip_address": "208.128.182.62"
+  },
+  {
+    "id": 8,
+    "first_name": "Julita",
+    "last_name": "McMorran",
+    "email": "jmcmorran7@java.com",
+    "gender": "Female",
+    "ip_address": "69.41.121.250"
+  },
+  {
+    "id": 9,
+    "first_name": "Madelin",
+    "last_name": "Ranyell",
+    "email": "mranyell8@senate.gov",
+    "gender": "Female",
+    "ip_address": "188.222.218.97"
+  },
+  {
+    "id": 10,
+    "first_name": "Elvis",
+    "last_name": "Filipponi",
+    "email": "efilipponi9@bluehost.com",
+    "gender": "Male",
+    "ip_address": "192.111.181.179"
+  }
+]
